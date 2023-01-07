@@ -1,12 +1,69 @@
-*{
-    margin: 0;
-  font-family: 'Open Sans', sans-serif;;
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
+
 /* header and navigation styles */
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
 }
-.text-primary{
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+.text-primary {
   color: chocolate;
 }
+
+.button-primary {
+  color: aliceblue;
+  font-weight: 700px;
+  font-size: 20px;
+  border: 0px;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: chocolate;
+}
+.header{
+  background-color: #FFF8F3;
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+/* banner styles */
+.banner{
+  margin: 0 200px;
+  display: flex;
+  align-items: center;
+}
+.banner-tittle{
+font-size: 85px;
+font-weight:700 ;
+
+}
+.banner-sub-tittle{
+  font-size: 600;
+  font-weight: 45px;
+  margin-bottom: 20px;
+}
+.banner-description{
+  color: darkorange;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+/* about section style */
