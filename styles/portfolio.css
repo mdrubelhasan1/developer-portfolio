@@ -122,4 +122,10 @@ color: #474747;
   margin-bottom: 20px;
   
 }
-
+.skill-description{
+  color:#757575
+}
+/*Resume style*/
+.resume-content{
+  display: flex;
+}
