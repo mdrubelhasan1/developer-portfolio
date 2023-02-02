@@ -5,7 +5,7 @@
 
 /* header and navigation styles */
 nav {
-   display: flex;
+  display: flex;
   justify-content: space-between;
   padding: 50px 200px;
 }
@@ -54,7 +54,6 @@ nav li {
 .banner-title{
 font-size: 85px;
 font-weight:700 ;
-
 
 }
 .banner-sub-title{
